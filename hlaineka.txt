@@ -1,5 +1,5 @@
-<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~</span><span id="c">$</span> cd hlaineka/<!-- laglaglaglaglaglag -->about_me
-<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->hlaineka.txt<br/>
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~</span><span id="c">$</span> cd hlaineka/<!-- laglaglaglaglaglag -->
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">hlaineka</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->hlaineka.txt<br/>
 I'm a student at Hive Helsinki looking for a position in the field of embedded devoplment!<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 To know more about me, you can visit my <a href="https://www.linkedin.com/in/helvi-lainekallio/">LinkedIn</a> page: <br> 
 Or visit my <a href="https://www.linkedin.com/in/helvi-lainekallio/">Github page</a> for more information on my projects: <br> 
