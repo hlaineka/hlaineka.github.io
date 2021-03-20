@@ -1,4 +1,42 @@
-<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~</span><span id="c">$</span> cd ft_ls/<!-- laglaglaglaglaglag -->
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~</span><span id="c">$</span> cd ft_ls/<!-- laglag -->
 <span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->ft_ls.txt<br/>
 Info about ft_ls<br/>
-<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> ./ft_ls <!-- laglaglaglaglaglag -->
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> make <!-- laglaglaglaglaglag --> <!-- hsdgfhjfkdjhfkjsalksdjflkajsdflkj asdklfjalksdjflkasjdflkajsdflkjasdlfkjasldk lkasdjf laskdjf laksdjf laksdjf lkadjsf asdfkl jasdlkfj alkdsjf ladflkj asdlfkj alsdkfj dhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
+./ft_ls compiled!<br/>
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> ./ft_ls <!-- laglaglaglaglaglaglaglaglag --><br/>
+Makefile <!-- laglag -->
+author <!-- laglag -->
+ft_ls <!-- laglag -->
+ft_ls.c <!-- laglag -->
+includes <!-- laglag -->
+libft <!-- laglag -->
+ls_dirlist.c <!-- laglag -->
+ls_dirlist2.c <!-- laglag -->
+ls_dirlist3.c <!-- laglag -->
+ls_helpers.c <!-- laglag -->
+ls_helpers2.c <!-- laglag -->
+ls_print.c <!-- laglag -->
+ls_print_helpers.c <!-- laglag -->
+ls_sort.c <!-- laglag -->
+objs <!-- laglag --><br/>
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> ./ft_ls - lart<!-- laglaglaglaglaglaglaglaglag --><br/>
+total 560<!-- laglag -->
+drwxr-xr-x   2 helvi  helvi    4096 Sep 29 11:09 includes<!-- laglag -->
+-rw-r--r--   1 helvi  helvi    4059 Feb 12 11:40 ft_ls.c<!-- laglag -->
+-rw-r--r--   1 helvi  helvi    4668 Feb 12 11:40 ls_print.c<!-- laglag -->
+-rw-r--r--   1 helvi  helvi       9 Feb 12 11:40 author<!-- laglag -->
+-rw-r--r--   1 helvi  helvi    3734 Feb 12 11:40 ls_helpers.c<!-- laglag -->
+-rw-r--r--   1 helvi  helvi    1618 Feb 12 11:40 ls_helpers2.c<!-- laglag -->
+-rw-r--r--   1 helvi  helvi      47 Feb 12 11:40 .gitignore<!-- laglag -->
+-rw-r--r--   1 helvi  helvi    4788 Feb 12 11:40 ls_dirlist.c<!-- laglag -->
+-rw-r--r--   1 helvi  helvi    1441 Feb 12 11:40 ls_dirlist3.c<!-- laglag -->
+drwxr-xr-x  24 helvi  helvi    4096 Mar 19 17:23 ..<!-- laglag -->
+-rw-r--r--   1 helvi  helvi    1936 Mar 20 18:20 Makefile<!-- laglag -->
+-rw-r--r--   1 helvi  helvi    4171 Mar 20 18:55 ls_sort.c<!-- laglag -->
+-rw-r--r--   1 helvi  helvi    3458 Mar 20 18:56 ls_print_helpers.c<!-- laglag -->
+-rw-r--r--   1 helvi  helvi    4142 Mar 20 18:56 ls_dirlist2.c<!-- laglag -->
+drwxr-xr-x   8 helvi  helvi    4096 Mar 20 19:06 .git<!-- laglag -->
+drwxr-xr-x   6 helvi  helvi    4096 Mar 20 19:07 libft<!-- laglag -->
+-rwxr-xr-x   1 helvi  helvi  191504 Mar 20 19:07 ft_ls<!-- laglag -->
+drwxr-xr-x   2 helvi  helvi    4096 Mar 20 19:07 objs<!-- laglag -->
+drwxr-xr-x   7 helvi  helvi    4096 Mar 20 19:07 .<!-- laglag -->
