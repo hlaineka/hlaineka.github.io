@@ -1,0 +1,4 @@
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~</span><span id="c">$</span> cd shells/<!-- laglaglaglaglaglag -->
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/shells</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->shells.txt<br/>
+Info about shells<br/>
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/shells</span><span id="c">$</span>

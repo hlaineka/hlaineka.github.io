@@ -1,0 +1,4 @@
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~</span><span id="c">$</span> cd ft_select/<!-- laglaglaglaglaglag -->
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_select</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->ft_select.txt<br/>
+Info about ft_select<br/>
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_select</span><span id="c">$</span>

@@ -98,7 +98,20 @@ function replaceUrls(text) {
 }
 
 Typer.speed=3;
-Typer.file="hlaineka.txt"; // add your own name here
+var sPath = window.location.pathname;
+var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+if(sPage == "index.html"){
+   Typer.file = "hlaineka.txt";
+}
+else if(sPage  == "ft_select.html"){
+   Typer.file = ft_select.txt
+}
+else if(sPage  == "shells.html"){
+	Typer.file = shells.txt
+}
+ else if(sPage  == "ft_ls.html"){
+	Typer.file = ft_ls.txt
+}
 Typer.init();
  
 var timer = setInterval("t();", 30);
