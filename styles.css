@@ -1,10 +1,37 @@
 body {
-	background-color: #000
+  background-color: black;
+  background-image: radial-gradient(
+    rgba(0, 150, 0, 0.75), black 120%
+  );
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  padding: 2rem;
+  color: white;
+  font: 1.3rem Inconsolata, monospace;
+  text-shadow: 0 0 5px #C8C8C8;
+}
+  body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(black, 0.15),
+      rgba(black, 0.15) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+    pointer-events: none;
 }
 
 #console {
-	font-family: courier, monospace;
-	color: #fff;
+	font-family: Inconsolata, monospace;
+	text-shadow: 0 0 5px #C8C8C8;
+	color: #f5f5f5;
 	width:750px;
 	margin-left:auto;
 	margin-right:auto;
@@ -13,20 +40,20 @@ body {
 }
 
 a {
-	color: #0bc;
+	color: #f5f5f5;
 	text-decoration: none;
 }
 
 #a {
-	color: #0f0;
+	color: #f5f5f5;
 }
 
 #c {
-	color: #0bc;
+	color: #f5f5f5;
 }
 
 #b {
-	color: #ff0096;
+	color: #f5f5f5;
 }
 
 #k {
@@ -38,7 +65,7 @@ a {
 }
 
 @keyframes change {
-    	0%  { color:  #0f0; }
-    	50% { color:  #0f0; }
+    	0%  { color:  #f5f5f5; }
+    	50% { color:  #f5f5f5; }
     	99% { color: black; }
 }

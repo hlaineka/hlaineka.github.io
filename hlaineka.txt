@@ -2,6 +2,6 @@
 <span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/hlaineka</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->hlaineka.txt<br/>
 I'm a student at Hive Helsinki looking for a position in the field of embedded devoplment!<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 To know more about me, you can visit my <a href="https://www.linkedin.com/in/helvi-lainekallio/">LinkedIn</a> page: <br> 
-Or visit my <a href="https://www.linkedin.com/in/helvi-lainekallio/">Github page</a> for more information on my projects: <br> 
+Or visit my <a href="https://github.com/hlaineka">Github page</a> for more information on my projects: <br> 
 Feel free to send me an email at <!-- longlonglongcomment --><a href="helvi.lainekallio@gmail.com">Email</a>. <br/>
 <span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/hlaineka</span><span id="c">$</span>
