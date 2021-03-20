@@ -103,6 +103,9 @@ var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
 if(sPage == "hlaineka.github.io"){
    Typer.file = "hlaineka.txt";
 }
+if(sPage == "index.html"){
+	Typer.file = "hlaineka.txt";
+ }
 else if(sPage  == "ft_select.html"){
    Typer.file = "ft_select.txt";
 }
