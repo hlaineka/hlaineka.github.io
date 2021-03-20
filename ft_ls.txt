@@ -1,9 +1,12 @@
 <span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~</span><span id="c">$</span> cd ft_ls/<!-- laglag -->
 <span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->ft_ls.txt<br/>
-Info about ft_ls<br/>
+./ft_ls is a project where we were asked to implement our own ls command with flags -larRt working.
+My implementation reads the information into a linked list and uses a merge sort algorithm to sort the nodes into a right order.
+My ft_ls is a bit on the slow side, since I used allocation quite carelessly when coding it. The program does not have any leaks.
+Below are some sample inputs and outputs of my ft_ls.<br/>
 <span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> make <!-- laglaglaglaglaglag --> <!-- hsdgfhjfkdjhfkjsalksdjflkajsdflkj asdklfjalksdjflkasjdflkajsdflkjasdlfkjasldk lkasdjf laskdjf laksdjf laksdjf lkadjsf asdfkl jasdlkfj alkdsjf ladflkj asdlfkj alsdkfj dhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
 ./ft_ls compiled!<br/>
-<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> ./ft_ls <!-- laglaglaglaglaglaglaglaglag --><br/>
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> ./ft_ls <!-- laglaglaglaglaglaglaglaglag -->
 Makefile <!-- laglag -->
 author <!-- laglag -->
 ft_ls <!-- laglag -->
@@ -19,8 +22,8 @@ ls_print.c <!-- laglag -->
 ls_print_helpers.c <!-- laglag -->
 ls_sort.c <!-- laglag -->
 objs <!-- laglag --><br/>
-<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> ./ft_ls - lart<!-- laglaglaglaglaglaglaglaglag --><br/>
-total 560<!-- laglag -->
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> ./ft_ls - lart<!-- laglaglaglaglaglaglaglaglag -->
+<pre>total 560<!-- laglag -->
 drwxr-xr-x   2 helvi  helvi    4096 Sep 29 11:09 includes<!-- laglag -->
 -rw-r--r--   1 helvi  helvi    4059 Feb 12 11:40 ft_ls.c<!-- laglag -->
 -rw-r--r--   1 helvi  helvi    4668 Feb 12 11:40 ls_print.c<!-- laglag -->
@@ -40,3 +43,5 @@ drwxr-xr-x   6 helvi  helvi    4096 Mar 20 19:07 libft<!-- laglag -->
 -rwxr-xr-x   1 helvi  helvi  191504 Mar 20 19:07 ft_ls<!-- laglag -->
 drwxr-xr-x   2 helvi  helvi    4096 Mar 20 19:07 objs<!-- laglag -->
 drwxr-xr-x   7 helvi  helvi    4096 Mar 20 19:07 .<!-- laglag -->
+</pre>
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span>

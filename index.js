@@ -99,19 +99,19 @@ function replaceUrls(text) {
 
 Typer.speed=3;
 var sPath = window.location.pathname;
-if(sPage == "https://hlaineka.github.io/"){
+if(sPage == ""){
    Typer.file = "hlaineka.txt";
 }
-if(sPage == "https://hlaineka.github.io/index.html"){
+if(sPage == "index.html"){
 	Typer.file = "hlaineka.txt";
  }
-else if(sPage  == "https://hlaineka.github.io/ft_select.html"){
+else if(sPage  == "ft_select.html"){
    Typer.file = "ft_select.txt";
 }
-else if(sPage  == "https://hlaineka.github.io/shells.html"){
+else if(sPage  == "shells.html"){
 	Typer.file = "shells.txt";
 }
- else if(sPage  == "https://hlaineka.github.io/ft_ls.html"){
+ else if(sPage  == "ft_ls.html"){
 	Typer.file = "ft_ls.txt";
 }
 else
