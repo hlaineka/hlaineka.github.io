@@ -99,6 +99,7 @@ function replaceUrls(text) {
 
 Typer.speed=3;
 var sPath = window.location.pathname;
+var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
 if(sPage == ""){
    Typer.file = "hlaineka.txt";
 }
@@ -115,7 +116,7 @@ else if(sPage  == "shells.html"){
 	Typer.file = "ft_ls.txt";
 }
 else
-	Typer.file = "error.txt";
+	Typer.file = "hlaineka.txt";
 
 Typer.init();
  
