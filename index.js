@@ -104,14 +104,17 @@ if(sPage == "index.html"){
    Typer.file = "hlaineka.txt";
 }
 else if(sPage  == "ft_select.html"){
-   Typer.file = ft_select.txt
+   Typer.file = "ft_select.txt";
 }
 else if(sPage  == "shells.html"){
-	Typer.file = shells.txt
+	Typer.file = "shells.txt";
 }
  else if(sPage  == "ft_ls.html"){
-	Typer.file = ft_ls.txt
+	Typer.file = "ft_ls.txt";
 }
+else
+	Typer.file = "error.txt";
+
 Typer.init();
  
 var timer = setInterval("t();", 30);
