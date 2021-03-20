@@ -100,7 +100,7 @@ function replaceUrls(text) {
 Typer.speed=3;
 var sPath = window.location.pathname;
 var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
-if(sPage == "hlaineka.github.io"){
+if(sPage == ""){
    Typer.file = "hlaineka.txt";
 }
 if(sPage == "index.html"){

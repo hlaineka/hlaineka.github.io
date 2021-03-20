@@ -1,4 +1,4 @@
 <span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~</span><span id="c">$</span> cd ft_ls/<!-- laglaglaglaglaglag -->
 <span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->ft_ls.txt<br/>
 Info about ft_ls<br/>
-<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span>
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> ./ft_ls <!-- laglaglaglaglaglag -->
