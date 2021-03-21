@@ -96,7 +96,7 @@ a {
 	font-size: 12px; /* Increased text to enable scrolling */
 	padding: 0px 10px;
 	overflow: auto;
-	scrollbar-color: black, #888888;
+	scrollbar-color: #888888, black;
   }
   
   @media screen and (max-height: 450px) {
