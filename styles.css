@@ -2,7 +2,8 @@ body {
   background-color: black;
   height: 100vh;
   margin: 0;
-  overflow: hidden;
+  overflow: auto;
+  scrollbar-color: #888888, black;
   padding: 2rem;
   color: white;
   font: 1.3rem Inconsolata, monospace;
