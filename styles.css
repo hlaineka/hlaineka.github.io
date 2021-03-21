@@ -99,6 +99,7 @@ a {
 	width:750px;
 	height: 100%;
 	overflow-x: hidden;
+	scrollbar-color: black, #888888;
   }
   
   @media screen and (max-height: 450px) {
