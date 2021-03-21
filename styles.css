@@ -97,6 +97,8 @@ a {
 	font-size: 12px; /* Increased text to enable scrolling */
 	padding: 0px 10px;
 	width:750px;
+	overflow: auto;
+	scrollbar-color: #888888, black;
   }
   
   @media screen and (max-height: 450px) {
