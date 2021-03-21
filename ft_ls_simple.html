@@ -1,0 +1,63 @@
+<html> 
+  <head> 
+    <title>hlaineka</title> 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head> 
+  <body>
+    <div class="sidenav">
+		<a href="index_simple.html">~/hlaineka</a>
+		<a href="ft_select_simple.html">~/ft_select</a>
+		<a href="shells_simple.html">~/shells</a>
+		<a href="ft_ls_simple.html">~/ft_ls</a>
+	  </div>
+	<div class = "main">
+		<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~</span><span id="c">$</span> cd ft_ls/
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> cat ft_ls.txt
+./ft_ls is a project where we were asked to implement our own ls command with flags -larRt working.
+My implementation reads the information into a linked list and uses a merge sort algorithm to sort the nodes into a right order.
+My ft_ls is a bit on the slow side, since I used allocation quite carelessly when coding it. The program does not have any leaks.
+You can find the code for my ft_ls in my <a href="https://github.com/hlaineka/ft_ls">Github page</a>
+Below are some sample inputs and outputs of my ft_ls.
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> make 
+./ft_ls compiled!
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> ./ft_ls
+Makefile 
+author
+ft_ls
+ft_ls.c
+includes
+libft
+ls_dirlist.c
+ls_dirlist2.c
+ls_dirlist3.c
+ls_helpers.c
+ls_helpers2.c
+ls_print.c
+ls_print_helpers.c
+ls_sort.c
+objs
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span> ./ft_ls - lart
+<pre>total 560
+drwxr-xr-x   2 helvi  helvi    4096 Sep 29 11:09 includes
+-rw-r--r--   1 helvi  helvi    4059 Feb 12 11:40 ft_ls.c
+-rw-r--r--   1 helvi  helvi    4668 Feb 12 11:40 ls_print.c
+-rw-r--r--   1 helvi  helvi       9 Feb 12 11:40 author
+-rw-r--r--   1 helvi  helvi    3734 Feb 12 11:40 ls_helpers.c
+-rw-r--r--   1 helvi  helvi    1618 Feb 12 11:40 ls_helpers2.c
+-rw-r--r--   1 helvi  helvi      47 Feb 12 11:40 .gitignore
+-rw-r--r--   1 helvi  helvi    4788 Feb 12 11:40 ls_dirlist.c
+-rw-r--r--   1 helvi  helvi    1441 Feb 12 11:40 ls_dirlist3.c
+drwxr-xr-x  24 helvi  helvi    4096 Mar 19 17:23 ..
+-rw-r--r--   1 helvi  helvi    1936 Mar 20 18:20 Makefile
+-rw-r--r--   1 helvi  helvi    4171 Mar 20 18:55 ls_sort.c
+-rw-r--r--   1 helvi  helvi    3458 Mar 20 18:56 ls_print_helpers.c
+-rw-r--r--   1 helvi  helvi    4142 Mar 20 18:56 ls_dirlist2.c
+drwxr-xr-x   8 helvi  helvi    4096 Mar 20 19:06 .git
+drwxr-xr-x   6 helvi  helvi    4096 Mar 20 19:07 libft
+-rwxr-xr-x   1 helvi  helvi  191504 Mar 20 19:07 ft_ls
+drwxr-xr-x   2 helvi  helvi    4096 Mar 20 19:07 objs
+drwxr-xr-x   7 helvi  helvi    4096 Mar 20 19:07 .</pre>
+<span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/ft_ls</span><span id="c">$</span>
+	</div>
+  </body> 
+</html>

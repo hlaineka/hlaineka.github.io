@@ -11,25 +11,25 @@ Below are some simplified examples of how the minishell works.
 $>cd <!-- laglag -->~<!-- laglag -->
 $>pwd <!-- laglag -->
 /home/helvi
-$><!-- laglaglaglaglaglag -->cd <!-- laglag -->-<!-- laglag-->
-$><!-- laglaglaglaglaglag -->pwd <!-- laglaglaglaglaglag -->
+$><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->cd <!-- laglag -->-<!-- laglag-->
+$><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->pwd <!-- laglaglaglaglaglag -->
 /home/helvi/Documents/hive/minishell
-$><!-- laglaglaglaglaglag -->setenv <!-- laglag -->foo <!-- laglag -->bar
-$><!-- laglaglaglaglaglag -->echo <!-- laglag -->foo
+$><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->setenv <!-- laglag -->foo <!-- laglag -->bar
+$><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->echo <!-- laglag -->foo
 foo 
-$><!-- laglaglaglaglaglag -->echo <!-- laglag -->$<!-- laglag -->foo
+$><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->echo <!-- laglag -->$<!-- laglag -->foo
 bar 
-$><!-- laglaglaglaglaglag -->setenv <!-- laglaglag -->CDPATH <!-- laglag -->~
+$><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->setenv <!-- laglaglag -->CDPATH <!-- laglag -->~
 $><!-- laglag -->ls
 author	includes  Makefile   minishell.en.pdf  README.md  run.sh
 images	libft	  minishell  objs	       run2.sh	  src
-$><!-- laglaglaglaglaglag -->cd <!-- laglag -->Documents
-$><!-- laglaglaglaglaglag -->pwd
+$><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->cd <!-- laglag -->Documents
+$><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->pwd
 /home/helvi/Documents
-$><!-- laglaglaglaglaglag -->cd <!-- laglag -->-
-$><!-- laglaglaglaglaglag -->pwd
+$><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->cd <!-- laglag -->-
+$><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->pwd
 /home/helvi/Documents/hive/minishell
-$><!-- laglaglaglaglaglag -->env <!-- laglag -->-i <!-- laglag -->cd Documents
+$><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->env <!-- laglag -->-i <!-- laglag -->cd Documents
 cd: No such file or directory: /home/helvi/Documents/hive/minishell/Documents
-$><!-- laglaglaglaglaglag -->exit
+$><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->exit
 <span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/shells</span><span id="c">$</span>

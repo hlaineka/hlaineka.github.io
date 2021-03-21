@@ -103,3 +103,9 @@ a {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
   }
+
+  .footer {
+	margin-bottom: 30px;
+	font-size: 12px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+  }
