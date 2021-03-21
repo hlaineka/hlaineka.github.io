@@ -8,28 +8,28 @@ Below are some simplified examples of how the minishell works.
 <span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/shells</span><span id="c">$</span> make <!-- laglaglaglaglaglag --> <!-- hsdgfhjfkdjhfkjsalksdjflkajsdflkj asdklfjalksdjflkasjdflkajsdflkjasdlfkjasldk lkasdjf laskdjf laksdjf laksdjf lkadjsf asdfkl jasdlkfj alkdsjf ladflkj asdlfkj alsdkfj dhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
 ./minishell compiled!
 <span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/shells</span><span id="c">$</span> ./minishell<!-- laglaglaglaglaglag -->
-$>cd ~
-$>pwd
+$>cd <!-- laglag -->~<!-- laglag -->
+$>pwd <!-- laglag -->
 /home/helvi
-$>cd -
-$>pwd
+$><!-- laglaglaglaglaglag -->cd <!-- laglag -->-<!-- laglag-->
+$><!-- laglaglaglaglaglag -->pwd <!-- laglaglaglaglaglag -->
 /home/helvi/Documents/hive/minishell
-$>setenv foo bar
-$>echo foo
+$><!-- laglaglaglaglaglag -->setenv <!-- laglag -->foo <!-- laglag -->bar
+$><!-- laglaglaglaglaglag -->echo <!-- laglag -->foo
 foo 
-$>echo $foo
+$><!-- laglaglaglaglaglag -->echo <!-- laglag -->$<!-- laglag -->foo
 bar 
-$>setenv CDPATH ~
-$>ls
+$><!-- laglaglaglaglaglag -->setenv <!-- laglaglag -->CDPATH <!-- laglag -->~
+$><!-- laglag -->ls
 author	includes  Makefile   minishell.en.pdf  README.md  run.sh
 images	libft	  minishell  objs	       run2.sh	  src
-$>cd Documents
-$>pwd
+$><!-- laglaglaglaglaglag -->cd <!-- laglag -->Documents
+$><!-- laglaglaglaglaglag -->pwd
 /home/helvi/Documents
-$>cd -
-$>pwd
+$><!-- laglaglaglaglaglag -->cd <!-- laglag -->-
+$><!-- laglaglaglaglaglag -->pwd
 /home/helvi/Documents/hive/minishell
-$>env -i cd Documents
+$><!-- laglaglaglaglaglag -->env <!-- laglag -->-i <!-- laglag -->cd Documents
 cd: No such file or directory: /home/helvi/Documents/hive/minishell/Documents
-$>exit
+$><!-- laglaglaglaglaglag -->exit
 <span id="a">hlaineka@HiveHelsinki</span>:<span id="b">~/shells</span><span id="c">$</span>
