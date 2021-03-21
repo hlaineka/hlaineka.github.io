@@ -95,7 +95,8 @@ a {
 	margin-left: 210px; /* Same width as the sidebar + left position in px */
 	font-size: 12px; /* Increased text to enable scrolling */
 	padding: 0px 10px;
-	overflow: scroll;
+	overflow: auto;
+	scrollbar-color: black, #888888;
   }
   
   @media screen and (max-height: 450px) {
