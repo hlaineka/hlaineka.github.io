@@ -1,6 +1,7 @@
 // pages/Home.js
 
-import React from "react";
+import React from "react"
+import "../scss/main.scss"
 
 const Home = () => (
   <div>

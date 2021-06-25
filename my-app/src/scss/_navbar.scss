@@ -1,0 +1,22 @@
+@import "main.scss";
+
+.header-container {
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa-star {
+    @extend %fa-icon;
+    @extend .fas;
+    content: fa-content($fa-var-star);
+}
+
+.hlaineka {
+    font-style: normal;
+    font-size: 4em;
+}
