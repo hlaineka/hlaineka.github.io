@@ -11,7 +11,6 @@ import "./scss/main.scss"
 function App() {
   return (
     <Router>
-      <div>
       <Navbar />
         <Switch>
           <Route path="/about">
@@ -24,7 +23,6 @@ function App() {
             <Shellspage />
           </Route>
         </Switch>
-      </div>
     </Router>
   );
 }

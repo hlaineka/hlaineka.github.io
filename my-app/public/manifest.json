@@ -4,5 +4,5 @@
   "icons": [
   ],
   "start_url": ".",
-  "display": "standalone",
+  "display": "standalone"
 }

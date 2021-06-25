@@ -1,25 +1,17 @@
-@use 'navbar';
-@import "fontawesome.scss";
-@import "solid.scss";
-@import "regular.scss";
+@import "./_header.scss";
+@import "./_content.scss";
+@import "./fontAwesome/fontawesome.scss";
+@import "./fontAwesome/solid.scss";
+@import "./fontAwesome/regular.scss";
+@import "./_variables.scss";
 
-$black: #272727;
-$white: #f0f0f0;
-$red: #ed5f4c;
-$blue: #3daacd;
-$green: #88c856;
-$purple: #c750bb;
-$orange: #e48c4c;
-$yellow: #e8d84a;
-
-@font-face {
-    font-family: 'Unifont';
-    src: url('../font/unifont-13.0.06.ttf') format('truetype');
-}
 
 body {
     background-color: $black;
     font-family: 'Unifont';
     color: $white;
-}
+    font-size: 18px;
+};
+
+
 

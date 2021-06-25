@@ -1,10 +1,10 @@
 // pages/Home.js
-
 import React from "react"
 import "../scss/main.scss"
 
 const Home = () => (
-  <div>
+  <div className="contentBox">
+  <div className="content">
     <h1 className="title is-1">This is the Home Page</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida,
@@ -12,6 +12,7 @@ const Home = () => (
       nulla interdum justo. Pellentesque dignissim, sapien et congue rutrum,
       lorem tortor dapibus turpis, sit amet vestibulum eros mi et odio.
     </p>
+  </div>
   </div>
 );
 

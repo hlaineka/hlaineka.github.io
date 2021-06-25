@@ -5,18 +5,32 @@ import "../scss/main.scss"
 const Banner = () => {
   return (
   <div className="banner">
-    <i className="fas fa-star star-0"></i>
-    <i className="fas fa-star star-1"></i>
-    <i className="fas fa-star star-2"></i>
-    <i className="fas fa-star star-3"></i>
-    <i className="fas fa-star star-4"></i>
-    <i className="hlaineka">hlaineka</i>
-    <i className="fas fa-star star-5"></i>
-    <i className="fas fa-star star-6"></i>
-    <i className="fas fa-star star-7"></i>
-    <i className="fas fa-star star-8"></i>
-    <i className="fas fa-star star-9"></i>
-    
+    <div className="centerBanner">
+      <hr className="bannerHr"/>
+      <div className="name-and-stars">
+        <div className="leftstars">
+          <i className="fas fa-star star-0"></i>
+          <i className="fas fa-star star-1"></i>
+          <i className="fas fa-star star-2"></i>
+          <i className="fas fa-star star-3"></i>
+          <i className="fas fa-star star-4"></i>
+        </div>
+        <div className="nameBox">
+          <i className="helvi">HELVI LAINEKALLIO</i>
+        </div>
+        <div className="rightstars">
+          <i className="fas fa-star star-5"></i>
+          <i className="fas fa-star star-6"></i>
+          <i className="fas fa-star star-7"></i>
+          <i className="fas fa-star star-8"></i>
+          <i className="fas fa-star star-9"></i>
+        </div>
+      </div>
+      <div className="nickBox">
+        <i className="hlaineka"> @hlaineka</i>
+        </div>
+      <hr className="bannerHr"/>
+    </div>
   </div>
   )
 }
@@ -25,10 +39,12 @@ const Navbar = () => {
   return (
     <div className="header-container">
       <Banner />
-      <div>
-        <Link to="/">Home</Link>
-        <Link to="/about">About me</Link>
-        <Link to="/shells">Shell projects</Link>
+      <div className="navbar">
+      <div className="centerNavbar">
+        <Link className="headerLink" to="/">Home</Link>
+        <Link className="headerLink" to="/about">About me</Link>
+        <Link className="headerLink" to="/shells">Shell projects</Link>
+      </div>
       </div>
     </div>
   )
