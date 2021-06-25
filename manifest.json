@@ -1,0 +1,8 @@
+{
+  "short_name": "hlaineka",
+  "name": "portfolio of hlaineka",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}
