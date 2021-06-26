@@ -1,10 +1,17 @@
 @import "./_header.scss";
 @import "./_content.scss";
+@import "./_typewriter.scss";
 @import "./fontAwesome/fontawesome.scss";
 @import "./fontAwesome/solid.scss";
 @import "./fontAwesome/regular.scss";
 @import "./_variables.scss";
+@import "./_tokenization.scss";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-color: $black;
@@ -13,5 +20,25 @@ body {
     font-size: 18px;
 };
 
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+p {
+    padding-bottom: 20px;
+    text-align: justify;
+}
 
+a {
+    color: $white;
+}
+
+a:active {
+    background-color: $white;
+    color: $black;
+}
+a:hover {
+    background-color:$white;
+    color: $black;
+}

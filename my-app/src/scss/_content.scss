@@ -1,10 +1,71 @@
 @import "./_variables.scss";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .contentBox {
     display: flex;
     justify-content: center;
 }
 
 .content {
-    width: 750px;
+    width: $width;
+}
+
+.fake-close {
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+}
+
+.fake-selector {
+    width: $width - 2px;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    position: relative;
+    padding-left: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: black solid 1px;
+    background-color: #3d3d3d;
+}
+
+.app-name {
+    flex: 0 1 auto;
+    position: absolute;
+    right: 50%;
+}
+
+.exampleBox {
+    width: $width;
+    height: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: $white;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.exampleBoxL {
+    width: $width;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: $white;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.exampleBoxXL {
+    width: $width;
+    height: 250px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: $white;
+    margin-bottom: 40px;
+    border-radius: 10px;
 }

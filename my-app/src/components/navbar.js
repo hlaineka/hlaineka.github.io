@@ -41,9 +41,8 @@ const Navbar = () => {
       <Banner />
       <div className="navbar">
       <div className="centerNavbar">
-        <Link className="headerLink" to="/">Home</Link>
-        <Link className="headerLink" to="/about">About me</Link>
         <Link className="headerLink" to="/shells">Shell projects</Link>
+        <Link className="headerLink" to="/about">About me</Link>
       </div>
       </div>
     </div>

@@ -7,6 +7,14 @@ $purple: #c750bb;
 $orange: #e48c4c;
 $yellow: #e8d84a;
 
+$width: 750px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'Unifont';
     src: url('../font/unifont-13.0.06.ttf') format('truetype');
