@@ -16,7 +16,8 @@ const Banner = () => {
           <i className="fas fa-star star-4"></i>
         </div>
         <div className="nameBox">
-          <i className="helvi">HELVI LAINEKALLIO</i>
+          <p className="helvi">HELVI LAINEKALLIO</p>
+          <p className="hlaineka"> @hlaineka</p>
         </div>
         <div className="rightstars">
           <i className="fas fa-star star-5"></i>
@@ -26,9 +27,6 @@ const Banner = () => {
           <i className="fas fa-star star-9"></i>
         </div>
       </div>
-      <div className="nickBox">
-        <i className="hlaineka"> @hlaineka</i>
-        </div>
       <hr className="bannerHr"/>
     </div>
   </div>

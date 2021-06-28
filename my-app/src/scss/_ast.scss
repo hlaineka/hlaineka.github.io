@@ -1,0 +1,20 @@
+@import "./_variables.scss";
+
+.node {
+    width: 60px;
+    text-align: center;
+}
+
+.ast-tree {
+    display: flex;
+    flex-direction: column;
+}
+
+.ast-row {
+    display: flex;
+}
+
+.node-box {
+    display: flex;
+}
+

@@ -26,24 +26,7 @@ const Shellspage = () => (
         Let's take a look at the workings of the with one pretty simple command:
       </p>
       <div className="exampleBox"><div className="fake-selector"><div className="fake-close">x</div><div className="app-name">./42sh</div></div><p className="typewriter">echo hello world > file ; cat file</p></div>
-      <p>First the command is divided into simple tokens</p>
-      <div className="exampleBoxL"><div className="fake-selector"><div className="fake-close">x</div><div className="app-name">./42sh</div></div><div className="first-tokenization">
-        <div className="token-box"><p className="word">echo</p><p className="token">word</p></div>
-        <div className="token-box"><p className="next">--></p></div>
-        <div className="token-box"><p className="word">hello</p><p className="token">word</p></div>
-        <div className="token-box"><p className="next">--></p></div>
-        <div className="token-box"><p className="word">world</p><p className="token">word</p></div>
-        <div className="token-box"><p className="next">--></p></div>
-        <div className="token-box-big"><p className="word">></p><p className="token">redirection operator</p></div>
-        <div className="token-box"><p className="next">--></p></div>
-        <div className="token-box"><p className="word">file</p><p className="token">operator</p></div>
-        <div className="token-box"><p className="next">--></p></div>
-        <div className="token-box"><p className="word">;</p><p className="token">word</p></div>
-        <div className="token-box"><p className="next">--></p></div>
-        <div className="token-box"><p className="word">cat</p><p className="token">word</p></div>
-        <div className="token-box"><p className="next">--></p></div>
-        <div className="token-box"><p className="word">file</p><p className="token">word</p></div>
-      </div></div>
+      <p>First the command is divided into simple tokens, only naming them words, redirection operations and operations.</p>
       <p>Next the tokens are handled more in detail, and all operator are given their final token. Also in case of
         redirections, the destination of redirection is added as a subtoken to the main redirection token.
       </p>
@@ -93,31 +76,44 @@ const Shellspage = () => (
         the precedence of each operator is added. Since words are not considered operations, no precedence
         is added to them.
       </p>
-      <div className="exampleBoxXL"><div className="fake-selector"><div className="fake-close">x</div><div className="app-name">./42sh</div></div><div className="first-tokenization">
+      <p>Next step is to change the infix notation (that is, the operations are in the middle of the "values" = words)
+        to postfix notation (the operations are after the values = words). I decided to use the shunting yard algorithm 
+        for this. You can read more about shunting yard algorithm in the <a href="https://en.wikipedia.org/wiki/Shunting-yard_algorithm">Wikipedia page</a>.
+      </p>
+      <div className="exampleBoxL"><div className="fake-selector"><div className="fake-close">x</div><div className="app-name">./42sh</div></div><div className="first-tokenization">
         <div className="token-box"><p className="word">echo</p><p className="token">word</p></div>
-        <div className="token-box"><p className="next">--></p></div>
-        <div className="token-box"><p className="null">.</p><p className="token">null</p><p className="precedence">5</p></div>
         <div className="token-box"><p className="next">--></p></div>
         <div className="token-box"><p className="word">hello</p><p className="token">word</p></div>
         <div className="token-box"><p className="next">--></p></div>
-        <div className="token-box"><p className="null">.</p><p className="token">null</p><p className="precedence">5</p></div>
-        <div className="token-box"><p className="next">--></p></div>
         <div className="token-box"><p className="word">world</p><p className="token">word</p></div>
         <div className="token-box"><p className="next">--></p></div>
-        <div className="token-box"><p className="word">></p><p className="token">great</p><p className="precedence">4</p><p className="redirection-to">file</p></div>
+        <div className="token-box"><p className="null">.</p><p className="token">null</p></div>
         <div className="token-box"><p className="next">--></p></div>
-        <div className="token-box"><p className="word">;</p><p className="token">word</p><p className="precedence">1</p></div>
+        <div className="token-box"><p className="null">.</p><p className="token">null</p></div>
+        <div className="token-box"><p className="next">--></p></div>
+        <div className="token-box"><p className="word">></p><p className="token">great</p><p className="redirection-to">file</p></div>
         <div className="token-box"><p className="next">--></p></div>
         <div className="token-box"><p className="word">cat</p><p className="token">word</p></div>
         <div className="token-box"><p className="next">--></p></div>
-        <div className="token-box"><p className="null">.</p><p className="token">null</p><p className="precedence">5</p></div>
-        <div className="token-box"><p className="next">--></p></div>
         <div className="token-box"><p className="word">file</p><p className="token">word</p></div>
+        <div className="token-box"><p className="next">--></p></div>
+        <div className="token-box"><p className="null">.</p><p className="token">null</p></div>
+        <div className="token-box"><p className="next">--></p></div>
+        <div className="token-box"><p className="word">;</p><p className="token">word</p></div>
       </div></div>
-      <p>Next step is to change the infix notation (that is, the operations are in the middle of the "values" = words)
-        to postfix notation (the operations are after the values = words). I decided to use the shunting yard algorithm 
-        for this. You can read more about shunting yard algorithm in the <a href="https://en.wikipedia.org/wiki/Shunting-yard_algorithm">Wikipedia page</a>
+      <p>Now it is time to build the AST-tree (abstract syntax tree). The building is done with the help of a
+        first-in-last-out node stack. The list of tokens is read from left to right. First, all the three words, 
+        echo, hello and world are made into nodes and added to the stack. The first operation, null, takes two 
+        children from the stack, in this case, hello and world. The null node is then placed into the stack. 
       </p>
+      <div className="exampleBoxNode"><div className="fake-selector"><div className="fake-close">x</div><div className="app-name">./42sh</div></div>
+      <div className="ast-tree">
+        <div className="ast-row"><div classname="node"><p className="word">;</p></div></div>
+        <div className="ast-row"><div classname="node"><p className="word">></p></div><div classname="node"><p className="word">null</p></div></div>
+        <div className="ast-row"><div classname="node"><p className="word">null</p></div><div classname="node"><p className="word">cat</p></div><div classname="node"><p className="word">file</p></div></div>
+        <div className="ast-row"><div classname="node"><p className="word">echo</p></div><div classname="node"><p className="word">null</p></div><div classname="node"><p className="word">null</p></div></div>
+        <div className="ast-row"><div classname="node"><p className="word">hello</p></div><div classname="node"><p className="word">world</p></div></div>
+      </div></div>
     </div>
   </div>
 );

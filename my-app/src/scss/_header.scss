@@ -2,13 +2,12 @@
 @import "./_variables.scss";
 
 .header-container {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     a {
         color: $white;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 1.3em;
     }
     a:active {
         background-color: $white;
@@ -21,10 +20,11 @@
 };
 
 .centerNavbar {
-    width: $width;
+    width: 90vw;
+    max-width: 700px;
     display: flex;
     justify-content: space-around;
-    margin-top: 5px;
+    margin-top: 1vh;
 }
 
 .navbar {
@@ -38,7 +38,6 @@
 };
 
 .center-banner {
-    width: $width;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,14 +47,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: $width;
-    height: 50px;
+    height: auto;
+    padding-bottom: 2vh;
+    padding-top: 1vh;
 };
 
 .fa-star {
     @extend %fa-icon;
     @extend .fas;
-    font-size: 1.5em;
+    font-size: 1.3em;
     content: fa-content($fa-var-star);
 };
 
@@ -104,43 +104,44 @@ i {
 };
 
 .helvi {
-    font-size: 50px;
+    font-size: 1.8em;
+    padding-bottom: 0;
 };
 
 .nameBox {
-    width: 440px;
-    height: 60px;
+    width: 62vw;
+    width: fit-content;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
 };
 
-.nickBox {
-    width: 440px;
-    height: 30px;
-    text-align: left;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-}
 
 .leftstars {
-    width: 150px;
+    width: 22vw;
+    max-width: 150px;
     display: flex;
     justify-content: space-around;
 };
 
 .rightstars {
-    width: 150px;
+    width: 22vw;
+    max-width: 150px;
     display: flex;
     justify-content: space-around;
 };
 
 .hlaineka {
-    font-size: 25px;
+    font-size: 1em;
+    padding-bottom: 0;
 };
 
 .bannerHr {
-    width: $width;
+    width: 90vw;
+    max-width: 700px;
 }
 
